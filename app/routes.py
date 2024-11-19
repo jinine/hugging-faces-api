@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from services import summarize_text, extract_entities, classify_text, answer_question, generate_text, predict_masked_word, paraphrase_text, summarize_and_classify
 
 app = Flask(__name__)
 
