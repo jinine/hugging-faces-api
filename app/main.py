@@ -1,6 +1,8 @@
 from flask import Flask
 from app.routes import register_routes
-import os
+
+import torch
+print(torch.__version__)
 
 app = Flask(__name__)
 
